@@ -1,7 +1,7 @@
-n=int(input())
-coin=[500,100,50,10]
-tot=0
-for change in coin:
-    tot+=n//change
-    n%=change
+coin = [500, 100, 50, 10]
+N = int(input())
+tot = 0
+for charge in coin:
+    tot += N//charge
+    N %= charge
 print(tot)
